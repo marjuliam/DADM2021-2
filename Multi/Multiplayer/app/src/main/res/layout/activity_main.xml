@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#FF3700B3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="TicTacToe \n UNAL 2021-2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="65dp">
+
+        <Button
+            android:id="@+id/btn_newgame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Juego"
+            android:textColor="#ffffff"
+            android:layout_marginVertical="5dp"
+            android:background="#FF3700B3"/>
+        <Button
+            android:id="@+id/btn_joingame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unirse a juego"
+            android:textColor="#ffffff"
+            android:layout_marginVertical="15dp"
+            android:background="#FF3700B3"/>
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:textColor="#ffffff"
+            android:layout_marginVertical="45dp"
+            android:background="#FF3700B3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="-50dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musica"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#FF3700B3"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
