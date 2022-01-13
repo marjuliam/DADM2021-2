@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DevelopBD extends SQLiteOpenHelper {
-    private static final String NOMBRE_BD = "sql_rene_BD_reto8";
+    private static final String NOMBRE_BD = "sqlBD_reto8";
     private static final int VERSION_BD = 1;
     private static final String TABALA_EMPRESAS = "CREATE TABLE EMPRESAS(NOMBRE TEXT PRIMARY KEY, URLWEB TEXT, TELEFONO TEXT, CORREO TEXT,PRODSERV TEXT, CLASIFICACION TEXT)";
 
